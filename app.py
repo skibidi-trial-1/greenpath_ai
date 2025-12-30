@@ -1,26 +1,24 @@
-# 🌳 GREENPATH AI - TREE HEALTH MONITOR
-# Class X AI Project | CBSE Code 417
 
 import streamlit as st
 import random
 import time
 
-# Set up the page
+
 st.set_page_config(
     page_title="GreenPath AI",
     page_icon="🌳",
     layout="wide"
 )
 
-# TITLE
+
 st.title("🌿 GreenPath AI - Tree Health Monitor")
 st.markdown("**Class X AI Project | Vignan Vidyalaya, Hyderabad**")
 st.markdown("---")
 
-# SIDEBAR
+
 with st.sidebar:
     st.header("📋 Project Info")
-    st.success("**Student:** Your Name")
+    st.success("**Student:**demo")
     st.info("**AI Subject Code:** 417")
     st.warning("**SDGs:** 11, 13, 15")
     st.markdown("---")
@@ -34,7 +32,7 @@ with st.sidebar:
         st.balloons()
         st.success("Demo ready! Upload an image.")
 
-# MAIN AREA
+
 col1, col2 = st.columns(2)
 
 with col1:
@@ -143,4 +141,5 @@ with col2:
 
 # FOOTER
 st.markdown("---")
+
 st.markdown("*CBSE Class X AI Project | Session 2025-26 | Prototype for Demonstration*")
